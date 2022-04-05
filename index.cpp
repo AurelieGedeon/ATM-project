@@ -1,3 +1,4 @@
+#include <string>
 #include <iostream>
 using namespace std;
 
@@ -13,5 +14,9 @@ void showMenu()
 
 int main()
 {
+    int option;
+
     showMenu();
+    cout << "Option: ";
+    cin >> option;
 }
